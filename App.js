@@ -5,6 +5,7 @@ import ComponentsScreen from './src/screens/ComponentsScreen';
 import HomeWorkScreen from './src/screens/HomeWorkScreen';
 import ListScreen from  './src/screens/ListScreen';
 import ImageScreen from './src/screens/ImageScreen';
+import CounterScreens from './src/screens/CounterScreens';
 
 const navigator = createStackNavigator(
   {
@@ -12,7 +13,8 @@ const navigator = createStackNavigator(
     Components: ComponentsScreen,
     Homework: HomeWorkScreen,
     List: ListScreen,
-    ImgScrn: ImageScreen 
+    ImgScrn: ImageScreen,
+    Count: CounterScreens 
 
     
   },
